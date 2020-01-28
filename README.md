@@ -1,1 +1,1 @@
-# machine-learning-spring-20
+# Machine Learning (Spring 2020)
