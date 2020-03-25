@@ -12,7 +12,7 @@ Your work will be assessed on:
 #### Solution
 In my model selection, I found the Perceptron model's performance was pretty well with 0.998 accuracy and 0.995 precision. However, its accuracy appeared a significant decline when I used `toxiccomments_test.csv` to make a test. For this submission, I would like to keep using the Perceptron model and see how can I improve the accuracy in the later versions.
 
-<img src="https://github.com/yujunmjiang/machine-learning-spring-20/blob/master/final_assignment_1/image/Screen%20Shot%202020-03-07%20at%204.06.09%20PM.png">
+<img src="https://github.com/yujunmjiang/machine-learning-spring-20/blob/master/final_assignment_1/image/Screen%20Shot%202020-03-25%20at%201.39.58%20PM.png">
 
 Fot the submission, I have re-concatenated my predictions to the id 'prc' (Perceptron model).
 
