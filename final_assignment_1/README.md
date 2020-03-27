@@ -21,4 +21,4 @@ my_submission["prediction"] = prc.predict(X_test_submission)
 ```
 
 #### Improvement
-To select the best alpha value, I found an example by [Chris ALbon](https://chrisalbon.com/machine_learning/linear_regression/selecting_best_alpha_value_in_ridge_regression/) to explain how to write multiple values in the same line. It could same a lot of time when I run the syntax in my Jupyter Notebook. Also, the idea could fit into other models and parts (r.g. random seed) as well.
+To select the best alpha value, I found an example by [Chris ALbon](https://chrisalbon.com/machine_learning/linear_regression/selecting_best_alpha_value_in_ridge_regression/) to explain how to write multiple values in the same line. It could same a lot of time when I run the syntax in my Jupyter Notebook. Also, the idea could fit into other models and parts (e.g. random seed) as well.
