@@ -35,3 +35,5 @@ from sklearn import linear_model
 rdg = linear_model.RidgeClassifier(normalize=True, alpha=10.0)
 rdg.fit(X_train, y_train)
 ```
+
+The final result has a better performance compares to the previous algorithm, and I can see an obvious improvement on the FP value from 
