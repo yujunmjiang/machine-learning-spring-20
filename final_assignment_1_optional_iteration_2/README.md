@@ -24,3 +24,6 @@ my_submission["prediction"] = prc.predict(X_test_submission)
 To select the best alpha value, I found an example by [Chris ALbon](https://chrisalbon.com/machine_learning/linear_regression/selecting_best_alpha_value_in_ridge_regression/) to explain how to write multiple values in the same line. It could same a lot of time when I run the syntax in my Jupyter Notebook. Also, the idea could fit into other models and parts (e.g. random seed) as well.
 
 #### Modification
+To improve the performance, I switched the algorithm from Perceptron model to Ridge Regression Classifier. After the fist run, the true positive is 3087 and false positive shows 6020, which is pretty high at this moment. So, I followed Chris' method to try different alpha values and see if it can decrease the false positive value.
+
+<img src="https://github.com/yujunmjiang/machine-learning-spring-20/blob/master/final_assignment_1_optional_iteration_2/image/Screen%20Shot%202020-04-06%20at%201.42.04%20PM.png">
