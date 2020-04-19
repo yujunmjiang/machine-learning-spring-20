@@ -36,4 +36,4 @@ rdg = linear_model.RidgeClassifier(normalize=True, alpha=10.0)
 rdg.fit(X_train, y_train)
 ```
 
-The final result has a better performance compares to the previous algorithm, and I can see an obvious improvement on the FP value from 
+The final result has a better performance compares to the previous algorithm, and I can see an obvious decrement on the FP value from 6020 to 2948. Meanwhile, the TP value only has a slight change from 3087 to 2948.
