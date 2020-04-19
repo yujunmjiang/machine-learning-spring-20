@@ -36,7 +36,7 @@ rdg = linear_model.RidgeClassifier(normalize=True, alpha=10.0)
 rdg.fit(X_train, y_train)
 ```
 
-The final result has a better performance compares to the previous algorithm, and I can see an obvious decrement on the FP value from 6020 to 2948. Meanwhile, the TP value only has a slight change from 3087 to 2948.
+The final result has a better performance compares to the previous algorithm, and I can see an obvious decrement on the FP value from 6020 to 3595. Meanwhile, the TP value only has a slight change from 3087 to 2947.
 
 
 <img src="https://github.com/yujunmjiang/machine-learning-spring-20/blob/master/final_assignment_1_optional_iteration_2/image/Screen%20Shot%202020-04-18%20at%207.47.05%20PM.png">
