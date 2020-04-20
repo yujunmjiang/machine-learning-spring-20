@@ -16,7 +16,7 @@ In my model selection, I found the Perceptron model's performance was pretty wel
 
 Fot the submission, I have re-concatenated my predictions to the id 'prc' (Perceptron model).
 
-```
+```python
 my_submission["prediction"] = prc.predict(X_test_submission)
 ```
 
