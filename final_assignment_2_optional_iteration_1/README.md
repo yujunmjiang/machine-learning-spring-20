@@ -12,3 +12,6 @@ Your work will be assessed on:
 3. the organization and documentation of your Jupyter Notebooks
 4. communication of your work in class reflections and final presentations
 5. model improvement over the semester
+
+#### Solution
+I was inspired by the [scikit-image documentation](https://scikit-image.org/docs/stable/api/skimage.feature.html#skimage.feature.hog) 
