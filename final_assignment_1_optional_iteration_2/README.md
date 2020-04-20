@@ -16,7 +16,7 @@ In my model selection, I found the Perceptron model's performance was pretty wel
 
 Fot the submission, I have re-concatenated my predictions to the id 'prc' (Perceptron model).
 
-```
+```python
 my_submission["prediction"] = prc.predict(X_test_submission)
 ```
 
@@ -30,7 +30,7 @@ To improve the performance, I switched the algorithm from Perceptron model to Ri
 
 After several times of the test, I have narrowed down the alpha value to 10.
 
-```
+```python
 from sklearn import linear_model
 rdg = linear_model.RidgeClassifier(normalize=True, alpha=10.0)
 rdg.fit(X_train, y_train)
