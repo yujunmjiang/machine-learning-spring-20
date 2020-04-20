@@ -14,4 +14,4 @@ Your work will be assessed on:
 5. model improvement over the semester
 
 #### Solution
-I was inspired by the [scikit-image documentation](https://scikit-image.org/docs/stable/api/skimage.feature.html#skimage.feature.hog) 
+I was inspired by the [scikit-image documentation](https://scikit-image.org/docs/stable/api/skimage.feature.html#skimage.feature.hog) on the method of how to extract Histogram of Oriented Gradients (HOG) for a given image.
