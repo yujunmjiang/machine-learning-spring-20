@@ -14,4 +14,8 @@ Your work will be assessed on:
 5. model improvement over the semester
 
 #### Solution
-I was inspired by the [scikit-image documentation](https://scikit-image.org/docs/stable/api/skimage.feature.html#skimage.feature.hog) on the method of how to extract Histogram of Oriented Gradients (HOG) for a given image. Meanwhile, the article [Feature Engineering for Images: A Valuable Introduction to the HOG Feature Descriptor](https://www.analyticsvidhya.com/blog/2019/09/feature-engineering-images-introduction-hog-feature-descriptor/) by Aishwarya Singh provides me a clear guide during the function building process.
+I was inspired by the [scikit-image documentation](https://scikit-image.org/docs/stable/api/skimage.feature.html#skimage.feature.hog) on the method of how to extract Histogram of Oriented Gradients (HOG) for a given image. Meanwhile, the article [Feature Engineering for Images: A Valuable Introduction to the HOG Feature Descriptor](https://www.analyticsvidhya.com/blog/2019/09/feature-engineering-images-introduction-hog-feature-descriptor/) by Aishwarya Singh provides me a clear guide during the function building process. Instead of using resized (downscaled) images, I kept the original size with some new hyperparameters are listed below:
+
+1. `orientations` are the number of buckets we want to create. Since I want to have a 9 x 1 matrix, I will set the orientations to 9
+2. `pixels_per_cell` defines the size of the cell for which we create the histograms. In the example we covered in this article, we used 8 x 8 cells and here I will set the same value. As mentioned previously, you can choose to change this value
+3. `cells_per_block` which is the size of the block over which we normalize the histogram. Here, we mention the cells per blocks and not the number of pixels. So, instead of writing 16 x 16, we will use 2 x 2 her
