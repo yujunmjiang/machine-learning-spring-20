@@ -21,7 +21,7 @@ my_submission["prediction"] = prc.predict(X_test_submission)
 ```
 
 #### Improvement
-To select the best alpha value, I found an example by [Chris ALbon](https://chrisalbon.com/machine_learning/linear_regression/selecting_best_alpha_value_in_ridge_regression/) to explain how to write multiple values in the same line. It could same a lot of time when I run the syntax in my Jupyter Notebook. Also, the idea could fit into other models and parts (e.g. random seed) as well.
+To select the best alpha value, I found an example by [Chris Albon](https://chrisalbon.com/machine_learning/linear_regression/selecting_best_alpha_value_in_ridge_regression/) to explain how to write multiple values in the same line. It could same a lot of time when I run the syntax in my Jupyter Notebook. Also, the idea could fit into other models and parts (e.g. random seed) as well.
 
 #### Modification
 To improve the performance, I switched the algorithm from Perceptron model to Ridge Regression Classifier. After the fist run, the true positive (TP) is 3087 and false positive (FP) shows 6020, which is pretty high at this moment. So, I followed Chris' method to try different alpha values and see if they can decrease the FP value. When I set alpha value equals 1, the FP value has been decreased to 5937 but not really significant on the graph.
