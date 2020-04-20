@@ -14,4 +14,4 @@ Your work will be assessed on:
 5. model improvement over the semester
 
 #### Solution
-I was inspired by the [scikit-image documentation](https://scikit-image.org/docs/stable/api/skimage.feature.html#skimage.feature.hog) on the method of how to extract Histogram of Oriented Gradients (HOG) for a given image.
+I was inspired by the [scikit-image documentation](https://scikit-image.org/docs/stable/api/skimage.feature.html#skimage.feature.hog) on the method of how to extract Histogram of Oriented Gradients (HOG) for a given image. Meanwhile, the article [Feature Engineering for Images: A Valuable Introduction to the HOG Feature Descriptor](https://www.analyticsvidhya.com/blog/2019/09/feature-engineering-images-introduction-hog-feature-descriptor/) by Aishwarya Singh provides me a clear guide during the function building process.
