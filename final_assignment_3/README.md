@@ -13,4 +13,4 @@ Your work will be assessed on:
 
 #### Solution
 
-As the beginning of data preparation, I referenced the method of [transforming categorical data](https://developers.google.com/machine-learning/data-prep/transform/transform-categorical) into numbers by Google Developers. In the [metadata](https://github.com/yujunmjiang/machine-learning-spring-20/blob/master/final_assignment_3/cluster_images.csv) file,
+As the beginning of data preparation, I referenced the method of [transforming categorical data](https://developers.google.com/machine-learning/data-prep/transform/transform-categorical) into numbers by Google Developers. In the [metadata](https://github.com/yujunmjiang/machine-learning-spring-20/blob/master/final_assignment_3/cluster_images.csv) file, I have selected the column `primary_medium` and transformed 7 different medium categories into the integers from 0 to 6.
