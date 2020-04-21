@@ -12,3 +12,5 @@ Your work will be assessed on:
 5. model improvement over the semester
 
 #### Solution
+
+As the beginning of data preparation, I referenced the method to transform categorical data into numbers on [Google Developers](https://developers.google.com/machine-learning/data-prep/transform/transform-categorical) website. Also, I have mentioned this idea in my [previous research](https://github.com/yujunmjiang/machine-learning-spring-20/blob/master/ml-research/yujun-supervised-learning.pdf) about how to use supervised learning to predict the total traffic time as well.
