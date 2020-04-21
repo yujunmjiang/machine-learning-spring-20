@@ -25,6 +25,4 @@ To find the optimal number of clusters in KMeans algorithm, I would like to expl
 
 * ***Elbow rule*** is used in orde rto find the optimal number of clusters. As depicted in the following diagram, curve looks like a hand and the number of clusters to be chosen over there should be equal to 3 as after that curve reaches a plateau.
 
-* ***Silhouette Score*** is a better measure to decide the number of clusters to be formulated from the data. It is calculated for each instance and the formula goes like this:
-
-***Silhouette Coefficient = (x-y)/ max(x,y)***
+* ***Silhouette Score*** is a better measure to decide the number of clusters to be formulated from the data. It is calculated for each instance and the formula goes like this: ***Silhouette Coefficient = (x-y)/ max(x,y)***
