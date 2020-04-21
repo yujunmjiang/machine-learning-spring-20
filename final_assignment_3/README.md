@@ -1,4 +1,4 @@
-## Final Assignment 02 (option 2)
+## Final Assignment 03 (option 2)
 
 #### Task
 
