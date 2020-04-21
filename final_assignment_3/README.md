@@ -32,3 +32,71 @@ To find the optimal number of clusters in KMeans algorithm, I would like to expl
 <img src="https://github.com/yujunmjiang/machine-learning-spring-20/blob/master/final_assignment_3/image/Screen%20Shot%202020-04-20%20at%2010.18.59%20PM.png">
 
 In my assumption, I thought the total number of clusters should equal to how many mediums have appeared in the metadata which was 7. The coefficient varies between -1 and 1. A value close to 1 implies that the instance is close to its cluster is a part of the right cluster. Whereas, a value close to -1 means that the value is assigned to the wrong cluster. Indeed, the graph shows the best result is when n_clusters = 11 and I decide to move on.
+
+```python
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+Images in cluster: 0
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+22_small.jpg
+31_small.jpg
+35_small.jpg
+53_small.jpg
+54_small.jpg
+56_small.jpg
+57_small.jpg
+59_small.jpg
+62_small.jpg
+63_small.jpg
+68_small.jpg
+73_small.jpg
+74_small.jpg
+78_small.jpg
+96_small.jpg
+99_small.jpg
+110_small.jpg
+113_small.jpg
+124_small.jpg
+126_small.jpg
+128_small.jpg
+129_small.jpg
+133_small.jpg
+135_small.jpg
+139_small.jpg
+140_small.jpg
+146_small.jpg
+147_small.jpg
+158_small.jpg
+178_small.jpg
+190_small.jpg
+214_small.jpg
+221_small.jpg
+227_small.jpg
+228_small.jpg
+229_small.jpg
+230_small.jpg
+233_small.jpg
+261_small.jpg
+287_small.jpg
+292_small.jpg
+293_small.jpg
+297_small.jpg
+304_small.jpg
+335_small.jpg
+352_small.jpg
+356_small.jpg
+363_small.jpg
+370_small.jpg
+371_small.jpg
+373_small.jpg
+377_small.jpg
+378_small.jpg
+380_small.jpg
+382_small.jpg
+386_small.jpg
+391_small.jpg
+392_small.jpg
+393_small.jpg
+394_small.jpg
+398_small.jpg
+403_small.jpg
+```
