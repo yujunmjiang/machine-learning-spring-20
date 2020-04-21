@@ -13,4 +13,4 @@ Your work will be assessed on:
 
 #### Solution
 
-As the beginning of data preparation, I referenced the method of [transforming categorical data](https://developers.google.com/machine-learning/data-prep/transform/transform-categorical) into numbers by Google Developers. Also, I have mentioned this idea in my [previous research](https://github.com/yujunmjiang/machine-learning-spring-20/blob/master/ml-research/yujun-supervised-learning.pdf) about how to apply supervised learning to predict the total traffic time as well.
+As the beginning of data preparation, I referenced the method of [transforming categorical data](https://developers.google.com/machine-learning/data-prep/transform/transform-categorical) into numbers by Google Developers. In the [metadata](https://github.com/yujunmjiang/machine-learning-spring-20/blob/master/final_assignment_3/cluster_images.csv) file,
