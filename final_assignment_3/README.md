@@ -28,3 +28,5 @@ To find the optimal number of clusters in KMeans algorithm, I would like to expl
 <img src="https://github.com/yujunmjiang/machine-learning-spring-20/blob/master/final_assignment_3/image/Screen%20Shot%202020-04-20%20at%2010.17.24%20PM.png">
 
 * ***Silhouette Score*** is a better measure to decide the number of clusters to be formulated from the data. It is calculated for each instance and the formula goes like this: ***Silhouette Coefficient = (x-y)/ max(x,y)***
+
+In my assumption, I thought the total number of clusters should equal to how many mediums have appeared in the metadata which is 7. However, the graph shows the best result is when n_clusters = 11 and I decide to move on.
