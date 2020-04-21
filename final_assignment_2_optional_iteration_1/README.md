@@ -23,3 +23,8 @@ final_image = feature.hog(img_raw, orientations=9, pixels_per_cell=(8, 8), cells
 1. `orientations` are the number of buckets we want to create. Since I want to have a 9 x 1 matrix, I will set the orientations to 9
 2. `pixels_per_cell` defines the size of the cell for which we create the histograms. In the example we covered in this article, we used 8 x 8 cells and here I will set the same value. As mentioned previously, you can choose to change this value
 3. `cells_per_block` which is the size of the block over which we normalize the histogram. Here, I mention the cells per blocks and not the number of pixels. So, instead of writing 16 x 16, I will use 4 x 4 here
+
+In my test result, I can see an obvious improvement on the true positive (TP) rate.
+
+<img src="https://github.com/yujunmjiang/machine-learning-spring-20/blob/master/final_assignment_2_optional_iteration_1/image/comparison.png">
+

@@ -24,7 +24,7 @@ my_submission["prediction"] = prc.predict(X_test_submission)
 To select the best alpha value, I found an example by [Chris Albon](https://chrisalbon.com/machine_learning/linear_regression/selecting_best_alpha_value_in_ridge_regression/) to explain how to write multiple values in the same line. It could same a lot of time when I run the syntax in my Jupyter Notebook. Also, the idea could fit into other models and parts (e.g. random seed) as well.
 
 #### Modification
-To improve the performance, I switched the algorithm from Perceptron model to Ridge Regression Classifier. After the fist run, the true positive (TP) is 3087 and false positive (FP) shows 6020, which is pretty high at this moment. So, I followed Chris' method to try different alpha values and see if they can decrease the FP value. When I set alpha value equals 1, the FP value has been decreased to 5937 but not really significant on the graph.
+To improve the performance, I switched the algorithm from Perceptron model to Ridge Regression Classifier. After the fist run, the true positive (TP) rate is 3087 and false positive (FP) rate shows 6020, which is pretty high at this moment. So, I followed Chris' method to try different alpha values and see if they can decrease the FP rate. When I set alpha value equals 1, the FP rate has been decreased to 5937 but not really significant on the graph.
 
 <img src="https://github.com/yujunmjiang/machine-learning-spring-20/blob/master/final_assignment_1_optional_iteration_2/image/Screen%20Shot%202020-04-06%20at%201.42.04%20PM.png">
 
@@ -36,7 +36,7 @@ rdg = linear_model.RidgeClassifier(normalize=True, alpha=10.0)
 rdg.fit(X_train, y_train)
 ```
 
-The final result has a better performance compares to the previous algorithm, and I can see an obvious decrement on the FP value from 6020 to 3595. Meanwhile, the TP value only has a slight change from 3087 to 2947.
+The final result has a better performance compares to the previous algorithm, and I can see an obvious decrement on the FP rate from 6020 to 3595. Meanwhile, the TP rate only has a slight change from 3087 to 2947.
 
 
 <img src="https://github.com/yujunmjiang/machine-learning-spring-20/blob/master/final_assignment_1_optional_iteration_2/image/Screen%20Shot%202020-04-18%20at%207.47.05%20PM.png">
