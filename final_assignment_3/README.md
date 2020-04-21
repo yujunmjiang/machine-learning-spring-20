@@ -18,3 +18,5 @@ As the beginning of data preparation, I referenced the method of [transforming c
 ```python
 X = data[['primary_medium', 'kinetic', 'spatial_dimension', 'si', 'co', 'or', 'sh', 'li', 'ar']]
 ```
+
+To find the optimal number of clusters in KMeans algorithm, I would like to explain two important terms in below:
