@@ -28,7 +28,7 @@ To improve the performance, I switched the algorithm from Perceptron model to Ri
 
 <img src="https://github.com/yujunmjiang/machine-learning-spring-20/blob/master/final_assignment_1_optional_iteration_2/image/Screen%20Shot%202020-04-06%20at%201.42.04%20PM.png">
 
-After several times of the test, I have narrowed down the alpha value to 10.
+After several times of the test, I have increased the alpha value to 10.
 
 ```python
 from sklearn import linear_model
